@@ -2,7 +2,21 @@
 @use "_var.scss" as v; 
 /*section*/
 .section{
-    margin-bottom: 36px;
+    padding: 20px;
+}
+.section--header{
+    width: 400px;
+    height: 40px;
+    font-size: 16px;
+    border-bottom: 3px solid;
+    border-color: var(--color-secondary);
+}
+
+.section--footer{
+    height: 40px;
+    font-size: 16px; 
+    border-top: 3px solid;
+    border-color: var(--color-secondary);
 }
 /*title*/
 .title{
@@ -44,18 +58,24 @@
 img{
     max-width: 100%;
 }
-.figure--eric{
-  max-width: 300px;
+.mockup{
+  max-width: 150px;
+  filter: drop-shadow(5px 0px 10px);
 }
 .logo{
-    width: 74px;
-    height: 57px;
-    margin-left: 20px;
-    margin-top: 20px;
+    width: 100px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.logoimg{
+    width: 250px;
+    height: 100px;
+    margin-left: 5px;
+ 
 }
 .dwm{
-    position: relative;
-    top: 65px; left: 10px;
+    position: absolute;
+    bottom: 0px; left: 10px;
 }
 .deco-image:after{
     content:"Image de Eric Meyer Ã  la confÃ©rence ADV.";
@@ -66,25 +86,39 @@ figcaption{
     color: var(--color-texte);
     font-size: 14px;
 }
+.carre {
+    position: absolute;
+    height: 250px;
+    width: 500px;
+    top: 102px;
+    right: 0;
+    filter: blur(10px);
+  
+    background-image: url(../images/hopital.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
 /*Liens et Boutons*/
 a{
     text-decoration: none;
+    color: var(--color-text);
 }
 
 .bouton{
     cursor: pointer;
     padding: 0;
     margin: 0;
-    border: 10px white;
+    border:transparent;
     position: relative;
-    top: 35px; left: 160px;
-    box-shadow:  0px 2px 2px 2px var(--color-text-offset);
+    top: -30px; left: 100px;
     background-color: transparent;
-    font-family: 'Gupter', "sans serif";
+    font-family: 'Lexend', "sans serif";
 }
 .bouton--sombre{
-    width: 35px;
-    height: 35px;
+    width: 30px;
+    height: 30px;
 
     
     text-indent: 100%;
@@ -92,7 +126,7 @@ a{
     overflow: hidden;
    
 
-    background-image: url(../images/dark.svg);
+    background-image: url(../images/darknoir.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -153,10 +187,9 @@ a{
     display: flex;
     align-items: baseline; 
 }
-.tittle--logo{
+.title--logo{
     margin-right: auto;
 }
-
 
 @media (max-width: 800px){
   
