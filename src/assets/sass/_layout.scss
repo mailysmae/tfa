@@ -1,0 +1,406 @@
+/*layout*/
+@use "_var.scss" as v; 
+/*section*/
+.section{
+    margin-bottom: 36px;
+}
+/*title*/
+.title{
+    font-size: 50px;
+    padding: 20px;
+     
+}
+.title--2{
+  font-size: 30px;
+  
+}
+.title--sources{
+  font-size: 16px;
+}
+.title--logo{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+    .title--logo a{
+        color: inherit; 
+        text-decoration: none; 
+    }
+.title--color {
+    color: var(--color-text);
+    font-weight: bold;
+    cursor: pointer;
+}
+.title--color a{
+    color: var(--color-text-offset);
+}
+.title--color a:hover{
+    color: var(--color-thirdy);
+}
+.title--color a:focus{
+    color:var(--color-texte) ;
+}
+
+/*images*/
+img{
+    max-width: 100%;
+}
+.figure--eric{
+  max-width: 300px;
+}
+.logo{
+    width: 74px;
+    height: 57px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.dwm{
+    position: relative;
+    top: 65px; left: 10px;
+}
+.deco-image:after{
+    content:"Image de Eric Meyer Ã  la confÃ©rence ADV.";
+    font-size: 12px;
+    max-width: 400px;
+}
+figcaption{
+    color: var(--color-texte);
+    font-size: 14px;
+}
+/*Liens et Boutons*/
+a{
+    text-decoration: none;
+}
+a:hover,
+a:focus{}
+.bouton{
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+    border: 10px white;
+    position: relative;
+    top: 35px; left: 160px;
+    box-shadow:  0px 2px 2px 2px var(--color-text-offset);
+    background-color: transparent;
+    font-family: 'Gupter', "sans serif";
+}
+.bouton--sombre{
+    width: 35px;
+    height: 35px;
+
+    
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+   
+
+    background-image: url(../images/dark.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+}
+.darkMode{
+    width: 85px;
+    height: 85px;
+}
+
+/*couleurs*/
+.colors{
+    width: 50px;
+    height: 30px;
+    border-radius: 150px ;
+    border: groove 3px #dfc7e4;
+    display: inline-block;
+    padding: 5px;
+    background-color: var(--color-bg);
+}
+.colors2{
+    width: 50px;
+    height: 30px;
+    border-radius: 150px ;
+    border: groove 3px #dfc7e4;
+    display: inline-block;
+    padding: 5px;
+    background-color: var(--color-text-offset);
+}
+.colors3{
+    width: 50px;
+    height: 30px;
+    border-radius: 150px ;
+    border: groove 3px #dfc7e4;
+    display: inline-block;
+    padding: 5px;
+    background-color: var(--color-texte);
+}
+.colors4{
+    width: 50px;
+    height: 30px;
+    border-radius: 150px ;
+    border: groove 3px #dfc7e4;
+    display: inline-block;
+    padding: 5px;
+    background-color: var(--color-primary);
+}
+.colors5{
+    width: 50px;
+    height: 30px;
+    border-radius: 150px ;
+    border: groove 3px #dfc7e4;
+    display: inline-block;
+    padding: 5px;
+    background-color: var(--color-thirdy);
+}
+.section--header{
+    display: flex;
+    align-items: baseline; 
+}
+.tittle--logo{
+    margin-right: auto;
+}
+
+
+@media (max-width: 800px){
+  
+    /* Style du menu ouvert */
+    body[burger-menu] .menu{
+        display: flex;
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        width: 100vw;
+        background: var(--color-primary);
+    }
+    
+    body[burger-menu] .menu-button{
+        color: var(--color-fourty);
+    }
+    body[burger-menu] .menu-button:hover{
+        color: var(--color-thirdy);
+    }
+    .figure--cheatin,
+    .figure--windows,
+    .figure--groupe,
+    .figure--conference,
+    .figure--colorl,
+    .figure--colord,
+    .figure--sitemeyer,
+    .figure--invision,
+    .figure--marre,
+    .figure--code,
+    .figure--coffee,
+    .figure--end,
+    .figure--google,
+    .figure--alexa,
+    .figcaption--cheatin,
+    .figcaption--windows,
+    .figcaption--groupe,
+    .figcaption--confrence,
+    .figcaption--colorl,
+    .figcaption--colord,
+    .figcaption--sitemeyer,
+    .figcaption--invision,
+    .figcaption--marre,
+    .figcaption--code,
+    .figcaption--coffee,
+    .figcaption--end,
+    .figcaption--google,
+    .figcaption--alexa{
+        display: none;
+    }
+
+}
+/*tablette*/
+@media (min-width: 900px){
+    /*images*/
+    .logo{
+        width: 130px;
+        height: 100px;
+    }
+    .figure--eric{
+        width: 900px;
+ 
+     
+    }
+    .figure--cheatin,
+    .figure--google,
+    .figure--alexa,
+    .figure--windows,
+    .figure--groupe,
+    .figure--conference,
+    .figure--colorl,
+    .figure--colord,
+    .figure--sitemeyer,
+    .figure--invision,
+    .figure--marre,
+    .figure--code,
+    .figure--coffee,
+    .figure--end{
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+    }
+    .figure--windows{
+        max-width: 400px;
+    
+    }
+    .figure--cheatin{
+        max-width: 400px;
+        margin-top: 500px;
+    }
+    .figure--google{
+        max-width: 700px;
+    }
+    .figure--alexa,
+    .figure--coffee,
+    .figure--marre,
+    .figure--end{
+        max-width: 200px;
+    }
+    .deco-image:after{
+        font-size: 16px;
+        text-align: justify;
+    }
+    .figure--groupe,
+    .figure--conference,
+    .figure--colorl,
+    .figure--colord,
+    .figure--sitemeyer,
+    .figure--invision,
+    .figure--code{
+        max-width: 300px;
+    }
+    .figure--groupe{
+        margin-top: 250px;
+    }
+    .figure--conference,
+    .figure--colord,
+    .figure--code{
+        margin-top: 550px;
+    }
+    .figure--colorl,  
+    .figure--marre{
+        margin-top: 250px;
+    }
+    .figure--sitemeyer,
+    .figure--coffee{
+        margin-top: 850px;
+    }
+    .figure--invision,
+    .figure--end{
+        margin-top: 450px;
+    }
+    
+    .dwm {
+        top: 45px; left: 90px;
+    }
+    /*bouton et menu*/
+    .bouton{
+        top: 120px; left: 290px;
+    }
+    
+    .bouton--sombre{
+        width: 50px;
+        height: 50px;
+    
+    }
+
+    /*texte*/
+    .copyright{
+        font-size: 25px;
+        top: 45px; left: 90px;
+        
+    }
+  
+    
+}
+
+ 
+
+@media (min-width: 1100px){
+    /*bouton*/
+    .bouton{
+        top: 120px; left: 750px;
+    }
+    .bouton--sombre{
+        width: 50px;
+        height: 50px;
+    }
+    /*texte*/
+    .copyright{
+        font-size: 25px;
+        top: 45px; left: 90px;
+    }
+    /*images*/
+    .logo{
+        width: 200px;
+        height: 153px;
+    }
+    .dwm {
+        top: 45px; left: 90px;
+    }
+    .deco-image:after{
+        font-size: 18px
+    }
+    .figure--eric{
+        max-width: 1000px;
+     
+    }
+    .figure--cheatin,
+    .figure--google,
+    .figure--alexa,
+    .figure--windows,  
+    .figure--conference,
+    .figure--colorl,
+    .figure--colord,
+    .figure--sitemeyer,
+    .figure--invision,
+    .figure--marre,
+    .figure--code,
+    .figure--coffee,
+    .figure--end{
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+    }
+    .figure--windows,
+    .figure--groupe,
+    .figure--conference,
+    .figure--colorl,
+    .figure--colord,
+    .figure--sitemeyer,
+    .figure--invision,
+    .figure--marre,
+    .figure--code,
+    .figure--coffee,
+    .figure--end{
+        max-width: 400px;
+    
+    }
+    .figure--cheatin{
+        max-width: 200px;
+        margin-top: 500px;
+    }
+    .figure--google{
+        width: 200px;
+        margin-top: 520px;
+    }
+    .figure--alexa{
+        max-width: 200px;
+        margin-top: 820px;
+        margin-left: 200px;
+    }
+    .figcaption--alexa{
+        margin-left: 200px;
+    }
+    .figure--code{
+        margin-top: 750px;
+    }
+    .figure--coffee{
+        margin-top: 1150px;
+    }
+   
+}
+

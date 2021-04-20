@@ -11,3 +11,30 @@ body{
     font-weight: 400;
     color: var(--color-text); 
 }
+
+body{
+    font-size: 28px;
+}
+.section--header{
+    margin-bottom: 0;
+    font-size: 26px;
+    height: 300px;
+}
+.section--footer{
+    font-size: 26px; 
+}
+.copyright{
+    font-size: 12px;
+    position: relative;
+    top: 65px; left: 15px;
+}
+.paragraphe{
+    font-weight: bold;
+}
+  /*titre*/
+  .title{
+    font-size: 120px;
+} 
+.title--2{
+    font-size: 70px;
+}
