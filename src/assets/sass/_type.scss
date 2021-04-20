@@ -1,0 +1,13 @@
+/**
+typo
+**/
+@use "_var.scss" as v; 
+
+body{
+    background-color: var(--color-bg);
+    font-family: v.$font-text;
+    font-size: 16px;
+    line-height: 1.4;
+    font-weight: 400;
+    color: var(--color-text); 
+}
