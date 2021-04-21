@@ -39,3 +39,4 @@ let giveDate = document.querySelector(".copyright");
 let maintenant = new Date();
 let an = maintenant.getFullYear();
 giveDate.innerHTML = an;
+

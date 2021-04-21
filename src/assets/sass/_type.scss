@@ -24,9 +24,15 @@ body{
     top: 68px; left: 25px;
 }
 .prototype{
+    cursor: pointer;
     position: relative;
+    padding: 10px 20px;
     bottom: 260px; left: 45px;
     font-weight: medium;
+    background: #00689A;
+    color: white;
+    box-shadow: 0px 4px 4px #014666;
+   
 }
 
 
@@ -43,6 +49,7 @@ body{
     .prototype{
         bottom: 350px; left: 130px;
         font-size: 24px;
+
     }
     .title{
         font-size: 30px;

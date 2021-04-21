@@ -86,10 +86,14 @@ a{
     overflow: hidden;
    
 
-    background-image: url(../images/darknoir.png);
+    background-image: url(../images/moon.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
+
+}
+.bouton--sombre:hover{
+    background-image: url(../images/moonhover.png);
 
 }
 .bouton--prototype{
@@ -202,12 +206,12 @@ a{
 
 @media (min-width: 1100px){
     .section--header{
-        width: 1300px;
+        width: 1260px;
         height: 90px;
     }
     
     .section--footer{
-        width: 1300px;
+        width: 1260px;
         font-size: 18px; 
     }
     /*bouton*/
