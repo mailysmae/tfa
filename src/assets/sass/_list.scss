@@ -11,7 +11,7 @@
  
 }
 .menu__el--accueil a{ 
-    bottom: 0; left: 150px;
+    top: 0; left: 150px;
 }
 .menu__el--projet a{
     top: 50px; left: 150px;
@@ -75,9 +75,6 @@
 .reseau__el--mail a{
     width: 80px;
     background-image: url(../images/mail.png);
-}
-.reseau__el--mail {
-  
 }
 .reseau__el--mail a:hover{
     width: 80px;
