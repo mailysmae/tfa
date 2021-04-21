@@ -32,6 +32,63 @@
     color: var(--color-texte);
     border-bottom: 4px solid var(--color-texte);
 }
+.menu{
+    display: none;
+}
+
+.menu-button{
+    position: fixed;
+    top: 10px;
+    right: 50px;
+    z-index: 2;
+    background: transparent;
+    border: none;
+    text-transform: uppercase;
+    outline: none;
+    color:var(--color-text);
+    
+}
+
+.menu-button:hover{
+    cursor: pointer;
+    color: var(--color-thirdy);
+}
+
+.menu__list{
+    margin: auto;
+    list-style: none;
+}
+
+.menu__link{
+    display: inline-block;
+    padding: 1em;
+    margin: .5em;
+    font-size: 1.5em;
+    text-decoration: none;
+    color: var(--color-secondary);
+}
+
+.menu__link:hover{
+    color: var(--color-fourty);
+}
+/* Style du menu ouvert */
+body[burger-menu] .menu{
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background-image: url(../images/pattern.png);
+    background-color: white;
+}
+
+body[burger-menu] .menu-button{
+    color: var(--color-fourty);
+}
+body[burger-menu] .menu-button:hover{
+    color: var(--color-thirdy);
+}
 .reseau{
     list-style: none;
     display: flex; 
@@ -89,67 +146,7 @@
   
     background-image: url(../images/behance.png);
 }
-@media (max-width: 400px){
 
-    .menu{
-        display: none;
-    }
-
-    .menu-button{
-        padding: 0;
-        position: relative;
-        top: -10px;
-        left: 170px;
-        z-index: 2;
-        background: transparent;
-        border: none;
-        text-transform: uppercase;
-        font-weight: bold;
-        outline: none;
-        color: var(--color-text);
-        
-    }
-
-    .menu-button:hover{
-        cursor: pointer;
-        color: #1e1b27;
-    }
-
-    .menu__list{
-        margin: 0;
-        list-style: none;
-    }
-
-    .menu__link{
-        display: inline-block;
-        padding: 10px;
-        margin: 52px;
-        font-size: 1.5em;
-        text-decoration: none;
-        color: var(--color-text);
-    }
-
-    .menu__link:hover{
-        color: #fba6a6;
-    }
-    /* Style du menu ouvert */
-    body[burger-menu] .menu{
-
-        position: absolute;
-        height: 750px;
-        width: 385px;
-        background: url(../images/pattern.png);
-    
-    }
-
-    body[burger-menu] .menu-button{
-        color: #ffdede;
-    }
-    body[burger-menu] .menu-button:hover{
-        color: #fba6a6;
-    }
-
-}
 
 /*tablette*/
 @media (min-width: 900px){
