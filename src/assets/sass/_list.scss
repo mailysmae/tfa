@@ -82,7 +82,6 @@ body[burger-menu] .menu{
     height: 1000px;
     width: 420px;
     background-image: url(../images/pattern.png);
-    background-color: white;
     z-index: 2
 }
 
@@ -164,7 +163,7 @@ body[burger-menu] .menu-button:hover{
         display:none
     }
     .menu__el a{ 
-        display: inline-block;
+    
         position: relative;
         bottom: 45px; 
         left: 500px;
@@ -175,7 +174,12 @@ body[burger-menu] .menu-button:hover{
         font-size: 25px;
       
     }
-  
+    .menu__el--accueil a{ 
+        top: 50px; left: 150px;
+    }
+     .menu__el--projet a{
+         top: 50px; left: 150px;
+     }
     .menu__liste--footer a{
         width: 20px;  
     }

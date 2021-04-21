@@ -37,7 +37,7 @@
     /*CSS Grid */
     .container{
         display: grid;
-        grid-template-columns: 1fr 2fr 4fr 3fr 1fr;
+        grid-template-columns: 1fr 2fr 4fr 3fr ;
         column-gap: 60px;
         row-gap: 40px;
     }
