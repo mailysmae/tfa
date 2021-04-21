@@ -19,7 +19,16 @@
    text-shadow: 0px 5px 5px;
 }
 .menu__liste a:hover{
-    color: var(--color-secondary);
+    color: var(--color-text-offset);
+}  
+.menu__etat--ac{
+    text-shadow: 0px 5px 5px;
+}  
+.menu__etat--hover{
+    color: var(--color-text-offset);
+}  
+.menu__etat--focus{
+    color: var(--color-text);
 }  
 .menu__liste a:focus{ 
     color: var(--color-texte);

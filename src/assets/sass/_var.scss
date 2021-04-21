@@ -1,19 +1,19 @@
 :root{
     --color-bg: #fefefe;
     --color-texte: #000000;
-    --color-text-offset:pink;
+    --color-text-offset:#1D53B3;
     --color-secondary: #1D53B3;
 }
 [color-theme="clair"]{
     --color-bg: #fefefe;
     --color-texte: #000000;
-    --color-text-offset: pink;
+    --color-text-offset:#1D53B3;
     --color-secondary: #1D53B3;
 }
 [color-theme="sombre"]{
     --color-bg: #3b4345;
     --color-texte: #fefefe;
-    --color-text-offset: purple;
+    --color-text-offset: #ffffff;
     --color-secondary: #1e1b27;
    
 }
