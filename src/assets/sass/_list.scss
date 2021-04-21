@@ -14,6 +14,7 @@
 }
 .menu__el a{ 
     display: none;
+    
 }
 
 .menu__el--actif a{
@@ -175,19 +176,16 @@ body[burger-menu] .menu-button:hover{
 
     /*menu*/
     .menu__el a{ 
-        display: inline-block;
-        position: relative;
-        bottom: 90px; 
-        left: 800px;
-        text-decoration: none;
-        color: var(--color-text-offset);
-        font-size: 30px;  
+        bottom: 70px; 
+        left: 50px;
+        font-size: 25px;  
+    
     }
-   
-    .menu__liste--footer a{
-        width: 181px;
-    }
-  
-   
+     .reseau__el a{
+         width: 30px;
+         height: 30px;
+         margin-right: 20px;
+        
+     }
 }
 
