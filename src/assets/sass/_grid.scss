@@ -5,6 +5,7 @@
     grid-template-columns: 1fr 2fr 2fr 1fr ;
     column-gap: 20px;
     row-gap: 100px;
+    margin-bottom: 40px;
 }
 .container > *{
     grid-column: 2/-1; 
@@ -27,24 +28,7 @@
     grid-column-start: 2;
     grid-column-end: 3;  
 }
-.mgrid-start6{
-    grid-column-start: -4;
-    grid-column-end: 4;
 
-}
-.mgrid-start7{
-    grid-column-start: 4;
-    grid-column-end: 5;
-    grid-row-start: 4;
-}
-.mgrid-start8{
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 1;
-    margin-top: 50px;
-    margin-right: 135px;
-   
-}
 
 
 /*tablette*/
