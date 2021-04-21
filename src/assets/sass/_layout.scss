@@ -89,10 +89,6 @@ img{
     position: relative;
     top: 70px; left: 25px;
 }
-figcaption{
-    color: var(--color-texte);
-    font-size: 14px;
-}
 .bloc{
     filter: blur(8px);
     z-index: -1;
@@ -191,142 +187,40 @@ a{
     background-color: var(--color-thirdy);
 }
 
-
-@media (max-width: 800px){
-  
-    /* Style du menu ouvert */
-    body[burger-menu] .menu{
-        display: flex;
-        position: fixed;
-        top: 0;
-        left: 0;
-        height: 100vh;
-        width: 100vw;
-        background: var(--color-primary);
-    }
-    
-    body[burger-menu] .menu-button{
-        color: var(--color-fourty);
-    }
-    body[burger-menu] .menu-button:hover{
-        color: var(--color-thirdy);
-    }
-    .figure--cheatin,
-    .figure--windows,
-    .figure--groupe,
-    .figure--conference,
-    .figure--colorl,
-    .figure--colord,
-    .figure--sitemeyer,
-    .figure--invision,
-    .figure--marre,
-    .figure--code,
-    .figure--coffee,
-    .figure--end,
-    .figure--google,
-    .figure--alexa,
-    .figcaption--cheatin,
-    .figcaption--windows,
-    .figcaption--groupe,
-    .figcaption--confrence,
-    .figcaption--colorl,
-    .figcaption--colord,
-    .figcaption--sitemeyer,
-    .figcaption--invision,
-    .figcaption--marre,
-    .figcaption--code,
-    .figcaption--coffee,
-    .figcaption--end,
-    .figcaption--google,
-    .figcaption--alexa{
-        display: none;
-    }
-
-}
 /*tablette*/
 @media (min-width: 900px){
+    .section--header{
+        width: 1022px;
+        height: 60px;
+        font-size: 1px;
+    }
+    
+    .section--footer{
+        width: 1022px;
+        font-size: 18px; 
+    }
     /*images*/
+    .mockup{
+        max-width: 250px;
+    }
+    .mockup--accueil{
+       left: 520px;
+       bottom: 60px;
+    }
+    
     .logo{
-        width: 130px;
-        height: 100px;
+        max-width: 15%;
+        margin-left: 15px;
+        margin-top: 5px;
     }
-    .figure--eric{
-        width: 900px;
- 
-     
+    .logoimg{
+        width: 500px;
+        height: 200px;
+        left: 80px; top: 100px;
     }
-    .figure--cheatin,
-    .figure--google,
-    .figure--alexa,
-    .figure--windows,
-    .figure--groupe,
-    .figure--conference,
-    .figure--colorl,
-    .figure--colord,
-    .figure--sitemeyer,
-    .figure--invision,
-    .figure--marre,
-    .figure--code,
-    .figure--coffee,
-    .figure--end{
-        display: flex;
-        flex-direction: column;
-        justify-items: center;
-        align-items: center;
-    }
-    .figure--windows{
-        max-width: 400px;
-    
-    }
-    .figure--cheatin{
-        max-width: 400px;
-        margin-top: 500px;
-    }
-    .figure--google{
-        max-width: 700px;
-    }
-    .figure--alexa,
-    .figure--coffee,
-    .figure--marre,
-    .figure--end{
-        max-width: 200px;
-    }
-    .deco-image:after{
-        font-size: 16px;
-        text-align: justify;
-    }
-    .figure--groupe,
-    .figure--conference,
-    .figure--colorl,
-    .figure--colord,
-    .figure--sitemeyer,
-    .figure--invision,
-    .figure--code{
-        max-width: 300px;
-    }
-    .figure--groupe{
-        margin-top: 250px;
-    }
-    .figure--conference,
-    .figure--colord,
-    .figure--code{
-        margin-top: 550px;
-    }
-    .figure--colorl,  
-    .figure--marre{
-        margin-top: 250px;
-    }
-    .figure--sitemeyer,
-    .figure--coffee{
-        margin-top: 850px;
-    }
-    .figure--invision,
-    .figure--end{
-        margin-top: 450px;
-    }
-    
-    .dwm {
-        top: 45px; left: 90px;
+    .dwm{
+        position: relative;
+        top: 90px; left: 25px;
     }
     /*bouton et menu*/
     .bouton{
@@ -338,15 +232,14 @@ a{
         height: 50px;
     
     }
-
-    /*texte*/
-    .copyright{
-        font-size: 25px;
-        top: 45px; left: 90px;
+    .bloc{
+        filter: blur(8px);
+        z-index: -1;
+        position: absolute;
+        width: 1020px;
+        height: 200px;
         
     }
-  
-    
 }
 
  

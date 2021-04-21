@@ -15,12 +15,7 @@
 .menu__el a{ 
     display: none;
 }
-.menu__el--accueil a{ 
-   align-items: flex-start;
-}
-.menu__el--projet a{
-    top: 50px; left: 150px;
-}
+
 .menu__el--actif a{
    text-shadow: 0px 5px 5px;
 }
@@ -32,6 +27,65 @@
     color: var(--color-texte);
     border-bottom: 4px solid var(--color-texte);
 }
+
+.reseau{
+    list-style: none;
+    display: flex; 
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 10px;
+}
+.reseau__el {
+   padding: 10px;
+
+}
+
+.reseau__el a{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+   
+
+    background-image: url(../images/insta.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+}
+.reseau__el--insta a:hover{
+    background-image: url(../images/instahoverl.svg);
+}
+.reseau__el--insta a:focus{
+    background-image: url(../images/instactifl.svg);
+}
+.reseau__el--pinterest a{
+    background-image: url(../images/pinterest.png);
+}
+.reseau__el--pinterest a:hover{
+    background-image: url(../images/pinteresthoverl.svg);
+}
+.reseau__el--pinterest a:focus{
+    background-image: url(../images/pinterestactifl.svg);
+}
+.reseau__el--mail a{
+    background-image: url(../images/mail.png);
+}
+.reseau__el--mail a:hover{
+    background-image: url(../images/mailhoverl.svg);
+}
+.reseau__el--mail a:focus{
+
+    background-image: url(../images/mailactifl.svg);
+}
+.reseau__el--behance a{
+  
+    background-image: url(../images/behance.png);
+}
+/*burger menu*/
 .menu{
     display: none;
 }
@@ -91,68 +145,10 @@ body[burger-menu] .menu-button{
 body[burger-menu] .menu-button:hover{
     color: var(--color-thirdy);
 }
-.reseau{
-    list-style: none;
-    display: flex; 
-    flex-direction: row;
-    justify-content: flex-end;
-    margin-right: 10px;
-}
-.reseau__el {
-   padding: 10px;
-
-}
-
-.reseau__el a{
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    
-    text-indent: 100%;
-    white-space: nowrap;
-    overflow: hidden;
-   
-
-    background-image: url(../images/insta.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-
-}
-.reseau__el--insta a:hover{
-    background-image: url(../images/instahoverl.svg);
-}
-.reseau__el--insta a:focus{
-    background-image: url(../images/instactifl.svg);
-}
-.reseau__el--pinterest a{
-    background-image: url(../images/pinterest.png);
-}
-.reseau__el--pinterest a:hover{
-    background-image: url(../images/pinteresthoverl.svg);
-}
-.reseau__el--pinterest a:focus{
-    background-image: url(../images/pinterestactifl.svg);
-}
-.reseau__el--mail a{
-    background-image: url(../images/mail.png);
-}
-.reseau__el--mail a:hover{
-    background-image: url(../images/mailhoverl.svg);
-}
-.reseau__el--mail a:focus{
-
-    background-image: url(../images/mailactifl.svg);
-}
-.reseau__el--behance a{
-  
-    background-image: url(../images/behance.png);
-}
-
 
 /*tablette*/
 @media (min-width: 900px){
-  
+
     .menu-button{
         display: none;
     }
@@ -163,16 +159,12 @@ body[burger-menu] .menu-button:hover{
         display:none
     }
     .menu__el a{ 
-    
-        position: relative;
+        position: absolute;
         bottom: 45px; 
-        left: 500px;
+        left: 900px;
         text-decoration: none;
-        width: 200px;
-	    padding: 5px 10px;
-        color: var(--color-text-offset);
+        color: var(--color-text-);
         font-size: 25px;
-      
     }
     .menu__el--accueil a{ 
         top: 50px; left: 150px;

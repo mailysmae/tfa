@@ -12,6 +12,9 @@ body{
     color: var(--color-text); 
    
 }
+.title{
+    font-size: 18px;
+} 
 
 .copyright{
     font-size: 12px;
@@ -24,17 +27,28 @@ body{
     top: 15px; left: 45px;
 }
 .prototype{
-    font-weight: medium;
     position: relative;
     bottom: 260px; left: 45px;
     font-weight: bold;
 }
 
 
-/*titre*/
+@media (min-width: 900px){
+.copyright{
+    font-size: 18px;
+    top: 90px; left: 30px;
+    
+}
+.slogan{
+    font-size: 34px;
+    top: 50px; left: 130px;
+}
+.prototype{
+    bottom: 350px; left: 130px;
+    font-size: 24px;
+}
 .title{
-    font-size: 120px;
+    font-size: 18px;
 } 
-.title--2{
-    font-size: 70px;
+
 }
