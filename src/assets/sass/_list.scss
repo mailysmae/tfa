@@ -85,6 +85,7 @@
   
     background-image: url(../images/behance.png);
 }
+@media (max-width: 800px){
 /*burger menu*/
 .menu{
     display: none;
@@ -145,7 +146,7 @@ body[burger-menu] .menu-button{
 body[burger-menu] .menu-button:hover{
     color: var(--color-thirdy);
 }
-
+}
 /*tablette*/
 @media (min-width: 900px){
 
@@ -153,44 +154,22 @@ body[burger-menu] .menu-button:hover{
         display: none;
     }
     .menu__list{
-        display:none
+        display:none;
     }
     .menu__item{
-        display:none
+        display:none;
     }
     .menu__el a{ 
-        position: absolute;
-        bottom: 45px; 
-        left: 900px;
+        display: inline-block;
+        position: relative;
+        bottom: 45px;
+        left: 50px;
         text-decoration: none;
         color: var(--color-text-);
-        font-size: 25px;
+        font-size: 20px;
     }
-    .menu__el--accueil a{ 
-        top: 50px; left: 150px;
-    }
-     .menu__el--projet a{
-         top: 50px; left: 150px;
-     }
-    .menu__liste--footer a{
-        width: 20px;  
-    }
-    .menu__el--uikit{
-        top: -15px; left: 330px;
-    }
-    
-    .menu__el--case{
-        top: -5px; left: 480px;
-    }
-    
-    .menu__el--credits{
-        top: 10px; left: 660px;
-    }
- 
     
 }
-
- 
 
 @media (min-width: 1100px){
 
@@ -198,7 +177,7 @@ body[burger-menu] .menu-button:hover{
     .menu__el a{ 
         display: inline-block;
         position: relative;
-        bottom: 60px; 
+        bottom: 90px; 
         left: 800px;
         text-decoration: none;
         color: var(--color-text-offset);

@@ -13,7 +13,9 @@ body{
    
 }
 .title{
-    font-size: 18px;
+    position: relative;
+    font-size: 16px;
+    left: 45px; top: 20px;
 } 
 
 .copyright{
@@ -29,26 +31,36 @@ body{
 .prototype{
     position: relative;
     bottom: 260px; left: 45px;
-    font-weight: bold;
+    font-weight: medium;
 }
 
 
 @media (min-width: 900px){
-.copyright{
-    font-size: 18px;
-    top: 90px; left: 30px;
-    
-}
-.slogan{
-    font-size: 34px;
-    top: 50px; left: 130px;
-}
-.prototype{
-    bottom: 350px; left: 130px;
-    font-size: 24px;
-}
-.title{
-    font-size: 18px;
-} 
+    body{
+        background-color: var(--color-bg);
+        font-family: v.$font-text;
+        font-size: 20px;
+        line-height: 1.4;
+        font-weight: 400;
+        color: var(--color-text); 
+       
+    }
+    .copyright{
+        font-size: 18px;
+        top: 90px; left: 30px;
+        
+    }
+    .slogan{
+        font-size: 34px;
+        top: 50px; left: 130px;
+    }
+    .prototype{
+        bottom: 350px; left: 130px;
+        font-size: 24px;
+    }
+    .title{
+        font-size: 30px;
+        left: 90px;
+    } 
 
 }

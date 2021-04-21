@@ -23,43 +23,6 @@
 .section--titre{
     z-index: 0;
 }
-/*title*/
-.title{
-    font-size: 50px;
-    padding: 20px;
-     
-}
-.title--2{
-  font-size: 30px;
-  
-}
-.title--sources{
-  font-size: 16px;
-}
-.title--logo{
-    font-family: 'Roboto', sans-serif;
-    font-size: 18px;
-}
-    .title--logo a{
-        color: inherit; 
-        text-decoration: none; 
-    }
-.title--color {
-    color: var(--color-text);
-    font-weight: bold;
-    cursor: pointer;
-}
-.title--color a{
-    color: var(--color-text-offset);
-}
-.title--color a:hover{
-    color: var(--color-thirdy);
-}
-.title--color a:focus{
-    color:var(--color-texte) ;
-}
-
-
 /*images*/
 img{
     max-width: 100%;
@@ -70,8 +33,8 @@ img{
     filter: drop-shadow(5px 0px 10px);
 }
 .mockup--accueil{
-   left: 80px;
-   bottom: 60px;
+   left: 90px;
+   bottom: 40px;
 }
 
 .logo{
@@ -96,7 +59,6 @@ img{
     width: 380px;
     
 }
-
 
 /*Liens et Boutons*/
 a{
@@ -224,21 +186,17 @@ a{
     }
     /*bouton et menu*/
     .bouton{
-        top: 120px; left: 290px;
+        top: 15px; left: 940px;
     }
     
     .bouton--sombre{
-        width: 50px;
-        height: 50px;
-    
+        width: 40px;
+        height: 40px;
     }
     .bloc{
         filter: blur(8px);
-        z-index: -1;
-        position: absolute;
         width: 1020px;
         height: 200px;
-        
     }
 }
 
