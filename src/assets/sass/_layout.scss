@@ -1,5 +1,10 @@
 /*layout*/
 @use "_var.scss" as v; 
+
+.contenair{
+    width: 100%;
+    max-width: 750px;
+}
 /*section*/
 .section{
     padding: 0;
@@ -148,6 +153,10 @@ a{
 
 /*tablette*/
 @media (min-width: 900px){
+    .contenair{
+        width: 100%;
+        max-width: 1024px;
+    }
     .section--header{
         width: 1022px;
         height: 60px;
@@ -204,6 +213,10 @@ a{
  
 
 @media (min-width: 1100px){
+    .contenair{
+        width: 100%;
+        max-width: 1500px;
+    }
     .section--header{
         width: 1260px;
         height: 90px;
@@ -264,3 +277,10 @@ a{
     
 }
 
+@media (min-width: 1500px){
+    .contenair{
+        width: 100%;
+        max-width: 1500px;
+        margin-left: 25%;
+    }
+}

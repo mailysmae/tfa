@@ -107,8 +107,7 @@
         grid-template-columns: repeat(2, 1fr) 3fr 6fr 1fr;
         column-gap: 50px;
         row-gap: 50px;
-        padding: 40px;
-        margin: 20px;
+        max-width: 100%;
     }
     .container > *{
         grid-column: 2/-1; 
