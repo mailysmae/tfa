@@ -36,6 +36,10 @@ img{
    left: 70px;
    bottom: 40px;
 }
+.mockup--projet{
+    left: 220px;
+    bottom: 20px;
+ }
 
 .logo{
     max-width: 25%;
@@ -63,6 +67,10 @@ img{
     position: absolute;
     width: 380px;
     
+}
+.gif{
+   max-width: 100%;
+   border: none;
 }
 
 /*Liens et Boutons*/
@@ -157,7 +165,10 @@ a{
        left: 520px;
        bottom: 60px;
     }
-    
+    .mockup--projet{
+        left: 620px;
+        bottom: 60px;
+     }
     .logo{
         max-width: 15%;
         margin-left: 15px;
@@ -170,6 +181,9 @@ a{
     }
     .dwm{
         top: 90px; left: 25px;
+    }
+    .gif{
+       max-width: 100%;
     }
     /*bouton et menu*/
     .bouton{
@@ -217,7 +231,7 @@ a{
         top: 80px; left: 40px;
     }
     .mockup{
-        max-width: 550px;
+        width: 400px;
     }
     .mockup--accueil{
        left: 520px;
@@ -227,7 +241,6 @@ a{
         left: 820px;
         bottom: -15px;
      }
-     
     
     .logo{
         height: 80px;
@@ -243,5 +256,11 @@ a{
         width: 1260px;
         height: 200px;
     }
+    .gif{
+        width: 500px;
+        height: 500px;
+        border: none;
+    }
+    
 }
 

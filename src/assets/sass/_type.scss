@@ -26,7 +26,7 @@ body{
 .prototype{
     cursor: pointer;
     position: relative;
-    
+    padding: 10px 10px;
     bottom: 260px; left: 45px;
     font-weight: medium;
     background: #00689A;
@@ -36,6 +36,12 @@ body{
 }
 .prototype a:hover{
     color: grey;
+}
+
+.prototype--projet{
+    bottom: 220px; left: -100px;
+    padding: 10px 10px;
+    
 }
 
 @media (min-width: 900px){
@@ -50,7 +56,10 @@ body{
     }
     .prototype{
         padding: 10px 20px;
-        bottom: 360px; left: 130px;
+        bottom: 360px; left: 100px;
+    }
+    .prototype--projet{
+        bottom: 350px; left: -100px;
     }
     .title{
         font-size: 30px;
@@ -70,10 +79,10 @@ body{
     }
     .prototype{
         padding: 10px 20px;
-        bottom: 460px; left: 110px;
+        bottom: 260px; left: 180px;
     }
     .prototype--projet{
-        bottom: 460px; left: -140px;
+        bottom: 260px; left: -80px;
     }
     .title{
         font-size: 30px;
