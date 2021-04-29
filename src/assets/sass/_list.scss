@@ -16,13 +16,13 @@
     display: none;
 }
 .menu__el--actif a{
-   text-shadow: 0px 5px 5px;
+    border-bottom: 4px solid black;
 }
 .menu__liste a:hover{
     color: var(--color-text-offset);
 }  
 .menu__etat--ac{
-    text-shadow: 0px 5px 5px;
+
 }  
 .menu__etat--hover{
     color: var(--color-text-offset);
@@ -105,7 +105,7 @@
 .menu-button{
     position: fixed;
     top: 10px;
-    right: 50px;
+    right: 40px;
     background: transparent;
     border: none;
     text-transform: uppercase;
@@ -182,7 +182,7 @@ body[burger-menu] .menu-button:hover{
     
 }
 
-@media (min-width: 1100px){
+@media (min-width: 1200px){
 
     /*menu*/
     .menu__el a{ 

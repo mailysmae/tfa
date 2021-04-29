@@ -11,7 +11,7 @@
     --color-secondary: #1D53B3;
 }
 [color-theme="sombre"]{
-    --color-bg: #3b4345;
+    --color-bg: #091936;
     --color-texte: #fefefe;
     --color-text-offset: #ffffff;
     --color-secondary: #1e1b27;
@@ -20,3 +20,8 @@
 
 /*type*/
 $font-text:"Lexend";
+
+.contenair{
+    width: 100%;
+    max-width: 750px;
+}
