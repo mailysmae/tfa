@@ -1,35 +1,20 @@
 
 /*CSS Grid*/ 
-.container{
+.section--titre{
     display: grid;
-    grid-template-columns: 1fr 2fr 3fr 1fr;
+    grid-template-columns: 1fr 2fr 3fr 2fr 1fr;
     column-gap: 20px;
-    row-gap: 50px;
-    margin: 20px;
-    padding: 20px;
-
+    row-gap: 20px;
     
 }
-.container > *{
-    grid-column: 2/-1; 
-}
 .mgrid-start2{
-    grid-column-start: 2;
-    grid-column-end: 4;  
+    grid-column-start: 3;
+    grid-column-end: 5;  
+    grid-row-start: 1; 
 }
 .mgrid-start3{
-    grid-column-start: 3;
-    grid-column-end: 4;  
-}
-.mgrid-start4{
-    grid-column-start: 2;
-    grid-column-end: 3;  
-}
-.mgrid-start5{
-    grid-column-start: 3;
-    grid-column-end: 4;  
-    grid-row-start: 1;
-    grid-row-end: 2; 
+    grid-column-start:2;
+    grid-column-end: 3;
 }
 
 
@@ -137,11 +122,13 @@
     .dgrid-start2{
         grid-column-start: 2;
         grid-column-end: 3;  
+        grid-row-start: 1;
   
     }
     .dgrid-start3{
         grid-column-start: 4;
         grid-column-end: 4;
+        grid-row-start: 1;
    
     }
     .dgrid-start4{

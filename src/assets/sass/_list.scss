@@ -22,7 +22,7 @@
     color: var(--color-text-offset);
 }  
 .menu__etat--ac{
-
+    border-bottom: 4px solid black;
 }  
 .menu__etat--hover{
     color: var(--color-text-offset);
@@ -56,41 +56,41 @@
     overflow: hidden;
    
 
-    background-image: url(../images/insta.png);
+    background-image: url(../images/instahover.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
 
 }
 .reseau__el--insta a:hover{
-    background-image: url(../images/instahover.png);
+    background-image: url(../images/insta.png);
 }
 .reseau__el--insta a:focus{
     background-image: url(../images/insta.png);
 }
 .reseau__el--pinterest a{
-    background-image: url(../images/pinterest.png);
+    background-image: url(../images/pinteresthover.png);
 }
 .reseau__el--pinterest a:hover{
-    background-image: url(../images/pinteresthover.png);
+    background-image: url(../images/pinterest.png);
 }
 .reseau__el--pinterest a:focus{
     background-image: url(../images/pinterest.png);
 }
 .reseau__el--mail a{
-    background-image: url(../images/mail.png);
+    background-image: url(../images/mailhover.png);
 }
 .reseau__el--mail a:hover{
-    background-image: url(../images/mailhover.png);
+    background-image: url(../images/mail.png);
 }
 .reseau__el--mail a:focus{
     background-image: url(../images/mail.png);
 }
 .reseau__el--behance a{
-    background-image: url(../images/behance.png);
+    background-image: url(../images/behancehover.png);
 }
 .reseau__el--behance a:hover{
-    background-image: url(../images/behancehover.png);
+    background-image: url(../images/behance.png);
 }
 .reseau__el--behance a:focus{
     background-image: url(../images/behance.png);
@@ -168,8 +168,12 @@ body[burger-menu] .menu-button:hover{
         display:none;
     }
     .menu__item{
-        display:none;
-    }
+        position: relative;
+        top: -50px;
+     }
+     .menu__item--actif {
+        border-bottom: 3px solid #091936;
+     }
     .menu__el a{ 
         display: inline-block;
         position: relative;
@@ -179,7 +183,7 @@ body[burger-menu] .menu-button:hover{
         color: var(--color-text-);
         font-size: 20px;
     }
-    
+  
 }
 
 @media (min-width: 1200px){
@@ -196,6 +200,10 @@ body[burger-menu] .menu-button:hover{
          height: 30px;
          margin-right: 20px;
         
+     }
+     .menu__item{
+        position: relative;
+        top: -60px;
      }
 }
 

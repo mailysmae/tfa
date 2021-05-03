@@ -10,8 +10,6 @@
     width: 390px;
     height: 40px;
     font-size: 16px;
-    border-bottom: 3px solid;
-    border-color: var(--color-secondary);
 }
 
 .section--footer{
@@ -20,13 +18,22 @@
     border-top: 3px solid;
     border-color: var(--color-secondary);
 }
+
+.section--texte{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px;
+    padding: 80px;
+    margin-top: 10px;
+}
 /*images*/
 img{
     max-width: 100%;
 }
 .mockup{
     position: relative;
-    max-width: 150px;
+    max-width: 140px;
 
 }
 .mockup--projet{
@@ -37,7 +44,7 @@ img{
 .logo{
     max-width: 30%;
     position: relative;
-    padding: 0;
+    padding: 5px;
 }
 .logoui{
     width: 200px;
@@ -55,11 +62,21 @@ img{
 .carre {
     background-image: url(../images/pa.png);
     background-repeat: repeat;
-    background-size: 50%;
+    background-size: 30%;
     background-position: 100%;
 
 }
-
+.rectangle{
+    position: absolute;
+    width: 390px;
+    height: 520px;
+    top: 0; left: 0;
+    top: 420px; 
+    background: rgba(29, 83, 179, 0.8);
+}
+p{
+    position: relative;
+}
 /*Liens et Boutons*/
 a{
     text-decoration: none;
@@ -102,6 +119,11 @@ a{
 .darkMode{
     width: 85px;
     height: 85px;
+}
+.proto{
+    background-color: var(--color-text-offset);
+    padding: 10px;
+    margin-top: -40px;
 }
 
 /*couleurs*/
@@ -210,8 +232,8 @@ a{
         top: 20px; left: 1180px;
     }
     .bouton--sombre{
-        width: 50px;
-        height: 50px;
+        width: 30px;
+        height: 30px;
     }
     /*texte*/
     .copyright{
@@ -235,7 +257,7 @@ a{
      }
     
     .logo{
-        height: 80px;
+        max-width: 20%;
         margin-left: 15px;
         margin-top: 10px;
     }
@@ -252,6 +274,13 @@ a{
     .carre {
         background-size: 15%;
         background-position: 100%;
+    }
+    .rectangle{
+        position: absolute;
+        width: 1260px;
+        height: 600px;
+        left: 0;
+        background: rgba(29, 83, 179, 0.8);
     }
 }
 
