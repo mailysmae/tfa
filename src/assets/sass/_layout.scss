@@ -18,14 +18,16 @@
     border-top: 3px solid;
     border-color: var(--color-secondary);
 }
-
+[color-theme="sombre"] .section--footer{
+    border-color: var(--color-btn);
+}
 .section--texte{
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin: 20px;
     padding: 80px;
-    margin-top: 10px;
+    margin-top: 1 0px;
 }
 /*images*/
 img{
@@ -59,11 +61,15 @@ img{
    max-width: 100%;
    border: none;
 }
-.carre {
+.carre{
     background-image: url(../images/pa.png);
     background-repeat: repeat;
     background-size: 30%;
     background-position: 100%;
+
+}
+[color-theme="sombre"] .carre{
+    background-image: url(../images/patblack.png);
 
 }
 .rectangle{
@@ -74,8 +80,15 @@ img{
     top: 420px; 
     background: rgba(29, 83, 179, 0.8);
 }
+[color-theme="sombre"] .rectangle{
+    background: var(--color-texte);
+}
+
 p{
     position: relative;
+}
+[color-theme="sombre"] .paragraphe{
+    color: var(--color-secondary);
 }
 /*Liens et Boutons*/
 a{
@@ -115,6 +128,10 @@ a{
     background-image: url(../images/moonhover.png);
 
 }
+[color-theme="sombre"] .bouton--sombre{
+
+  background-image: url(../images/moondark.png);
+}
 
 .darkMode{
     width: 85px;
@@ -125,7 +142,9 @@ a{
     padding: 10px;
     margin-top: -40px;
 }
-
+[color-theme="sombre"] .proto{
+    background-color: var(--color-btn);
+}
 /*couleurs*/
 .colors{
     width: 50px;
@@ -136,22 +155,10 @@ a{
     padding: 5px;
     background-color: var(--color-bg);
 }
-.colors2{
-    width: 50px;
-    height: 30px;
-    border-radius: 150px ;
-    border: groove 3px #dfc7e4;
-    display: inline-block;
-    padding: 5px;
+.colors--2{
     background-color: var(--color-text-offset);
 }
-.colors3{
-    width: 50px;
-    height: 30px;
-    border-radius: 150px ;
-    border: groove 3px #dfc7e4;
-    display: inline-block;
-    padding: 5px;
+.colors--3{
     background-color: var(--color-texte);
 }
 
@@ -199,8 +206,12 @@ a{
        max-width: 100%;
     }
     .carre {
-        background-size: 50%;
+        background-size: 20%;
   
+    }
+    .rectangle{
+        width: 900px;
+        height: 520px;    
     }
     /*bouton*/
     .bouton{
@@ -235,6 +246,7 @@ a{
         width: 30px;
         height: 30px;
     }
+
     /*texte*/
     .copyright{
         font-size: 20px;
@@ -245,11 +257,7 @@ a{
         top: 80px; left: 40px;
     }
     .mockup{
-        width: 400px;
-    }
-    .mockup--accueil{
-       left: 520px;
-       bottom: -15px;
+        max-width: 200px;
     }
     .mockup--projet{
         left: 820px;
@@ -257,9 +265,8 @@ a{
      }
     
     .logo{
-        max-width: 20%;
-        margin-left: 15px;
-        margin-top: 10px;
+        max-width: 10%;
+      
     }
     .logoimg{
         width: 500px;
@@ -272,15 +279,14 @@ a{
         border: none;
     }
     .carre {
-        background-size: 15%;
+        background-size: 10%;
         background-position: 100%;
+        height: 350px;
     }
     .rectangle{
-        position: absolute;
         width: 1260px;
         height: 600px;
-        left: 0;
-        background: rgba(29, 83, 179, 0.8);
+        top: 500px;
     }
 }
 

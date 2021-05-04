@@ -95,7 +95,18 @@
 .reseau__el--behance a:focus{
     background-image: url(../images/behance.png);
 }
-
+[color-theme="sombre"] .reseau__el--insta a{
+    background-image: url(../images/inswh.png);
+}
+[color-theme="sombre"] .reseau__el--pinterest a{
+    background-image: url(../images/pinterestwh.png);
+}
+[color-theme="sombre"] .reseau__el--mail a{
+    background-image: url(../images/mailwh.png);
+}
+[color-theme="sombre"] .reseau__el--behance a{
+    background-image: url(../images/bewh.png);
+}
 @media (max-width: 800px){
 /*burger menu*/
 .menu{
@@ -205,5 +216,8 @@ body[burger-menu] .menu-button:hover{
         position: relative;
         top: -60px;
      }
+     .menu__link{
+        font-size: 18px;
+    }
 }
 
