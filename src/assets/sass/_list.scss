@@ -108,66 +108,68 @@
     background-image: url(../images/bewh.png);
 }
 @media (max-width: 800px){
-/*burger menu*/
-.menu{
-    display: none;
-}
-
-.menu-button{
-    position: fixed;
-    top: 10px;
-    right: 40px;
-    background: transparent;
-    border: none;
-    text-transform: uppercase;
-    outline: none;
-    color:var(--color-text);
+    .menu{
+        display: none;
+    }
     
-}
-
-.menu-button:hover{
-    cursor: pointer;
-    color: var(--color-text);
-}
-
-.menu__list{
-    margin: auto;
-    list-style: none;
-}
-
-.menu__link{
-    display: inline-block;
-    position: relative;
-    top: -130px;
-    right: 10px;
-    padding: 20px;
-    font-size: 24px;
-    text-decoration: none;
-    color: var(--color-secondary);
-    background-color: white;
-}
-
-.menu__link:hover{
-    color: var(--color-fourty);
-}
-/* Style du menu ouvert */
-body[burger-menu] .menu{
-    display: flex;
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 1000px;
-    width: 420px;
-    background-image: url(../images/pattern.png);
-    z-index: 2
-}
-
-body[burger-menu] .menu-button{
-    color: var(--color-fourty);
-}
-body[burger-menu] .menu-button:hover{
-    color: var(--color-thirdy);
-}
+    .menu-button{
+        position: fixed;
+        top: 10px;
+        right: 50px;
+        background: transparent;
+        border: none;
+        text-transform: uppercase;
+        outline: none;
+        color:var(--color-text);
+        
+    }
+    
+    .menu-button:hover{
+        cursor: pointer;
+        color: var(--color-text);
+    }
+    
+    .menu__list{
+        margin: auto;
+        list-style: none;
+    }
+    
+    .menu__link{
+        display: inline-block;
+        position: relative;
+        margin: 30px;
+        padding: 20px;
+        top: 400px;
+        font-size: 24px;
+        text-decoration: none;
+        color: var(--color-text);
+        background-color: white;
+    }
+    
+    .menu__link:hover{
+        color: var(--color-secondary);
+    }
+    /* Style du menu ouvert */
+    body[burger-menu] .menu{
+        display: flex;
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 1000px;
+        width: 420px;
+        background-image: url(../images/patterns.png);
+        background-repeat: repeat;
+        background-size: 40%;
+        background-position: 100%;
+        z-index: 1
+    }
+    
+    body[burger-menu] .menu-button{
+        color: var(--color-fourty);
+    }
+    body[burger-menu] .menu-button:hover{
+        color: var(--color-thirdy);
+    }
 }
 /*tablette*/
 @media (min-width: 900px){
