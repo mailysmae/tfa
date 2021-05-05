@@ -15,17 +15,17 @@
 .menu__el a{ 
     display: none;
 }
-.menu__el--actif a{
-    border-bottom: 4px solid black;
-}
 .menu__liste a:hover{
-    color: var(--color-text-offset);
+    color: var(--color-secondary);
+}  
+[color-theme="sombre"] .menu__liste a:hover{
+    color: var(--color-btn);
 }  
 .menu__etat--ac{
-    border-bottom: 4px solid black;
+    border-bottom: 4px solid var(--color-text-offset);
 }  
 .menu__etat--hover{
-    color: var(--color-text-offset);
+    color: var(--color-secondary);
 }  
 .menu__etat--focus{
     color: var(--color-text);
@@ -183,7 +183,10 @@ body[burger-menu] .menu-button:hover{
         top: -50px;
      }
      .menu__item--actif {
-        border-bottom: 3px solid #091936;
+        border-bottom: 3px solid var(--color-text-offset);
+     }
+     [color-theme="sombre"] .menu__item--actif {
+        border-bottom: 3px solid var(--color-btn);
      }
     .menu__el a{ 
         display: inline-block;
