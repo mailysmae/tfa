@@ -107,6 +107,19 @@
 [color-theme="sombre"] .reseau__el--behance a{
     background-image: url(../images/bewh.png);
 }
+[color-theme="sombre"] .reseau__el--insta a:hover{
+    background-image: url(../images/instad.png);
+}
+[color-theme="sombre"] .reseau__el--pinterest a:hover{
+    background-image: url(../images/pinterestd.png);
+}
+[color-theme="sombre"] .reseau__el--mail a:hover{
+    background-image: url(../images/maild.png);
+}
+[color-theme="sombre"] .reseau__el--behance a:hover{
+    background-image: url(../images/be.png);
+}
+
 @media (max-width: 800px){
     .menu{
         display: none;

@@ -17,31 +17,37 @@ body{
 
 .title{
     position: relative;
+    font-size: 30px;
+    margin: 0;
+    padding: 50px;
+}
+.title--sous{
+    position: relative;
 }
 .copyright{
     font-size: 12px;
     position: relative;
     top: 68px; left: 25px;
 }
-.prototype{
+.proto{
+    background-color: var(--color-secondary);
+    margin-top: -40px;
+    margin-left: 50px;
+    text-align: center;
+    padding: 10px;
+    color: var(--color-bg);
     cursor: pointer;
-    position: relative;
-    padding: 10px 10px;
-    bottom: 260px; left: 45px;
-    font-weight: medium;
-    background: #00689A;
-    color: white;
-
-   
 }
-.prototype a:hover{
-    color: grey;
+.proto--projet{
+     margin-top: 200px;
+     margin-left: -150px;
 }
 
-.prototype--projet{
-    bottom: 220px; left: -100px;
-    padding: 10px 10px;
-    
+[color-theme="sombre"] .proto{
+    background-color: var(--color-btn);
+}
+.proto:hover{
+    color: var(--color-text);
 }
 
 @media (min-width: 900px){
@@ -54,18 +60,16 @@ body{
         top: 90px; left: 30px;
         
     }
-    .prototype{
-        padding: 10px 20px;
-        bottom: 360px; left: 100px;
-    }
-    .prototype--projet{
-        bottom: 350px; left: -100px;
-    }
+
     .title{
         font-size: 30px;
         
     } 
-
+    .proto{
+        margin-right: 150px;      
+        margin-top: 220px;
+        cursor: pointer;
+     }
 }
 @media (min-width: 1200px){
     body{
@@ -77,9 +81,11 @@ body{
         top: 90px; left: 30px;
         
     }
-    .prototype{
-        padding: 10px 20px;
-        bottom: 260px; left: 180px;
+    .proto{
+       margin-right: 150px;      
+       font-size: 18px;
+       margin: 50px;
+       cursor: pointer;
     }
     .prototype--projet{
         bottom: 260px; left: -80px;

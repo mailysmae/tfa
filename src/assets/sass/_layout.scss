@@ -22,6 +22,7 @@
 [color-theme="sombre"] .section--footer{
     border-color: var(--color-btn) ;
 }
+
 .section--texte{
     display: flex;
     flex-direction: column;
@@ -36,13 +37,13 @@ img{
 }
 .mockup{
     position: relative;
-    max-width: 140px;
+    max-width: 250px;
 
 }
-.mockup--projet{
-    left: 220px;
-    bottom: 20px;
- }
+.maquette{
+    max-width: 100%;
+}
+
 
 .logo{
     max-width: 30%;
@@ -63,6 +64,7 @@ img{
    border: none;
 }
 .carre{
+
     background-image: url(../images/pa.png);
     background-repeat: repeat;
     background-size: 30%;
@@ -76,9 +78,9 @@ img{
 .rectangle{
     position: absolute;
     width: 390px;
-    height: 600px;
+    height: 420px;
     left: 0; 
-    top: 420px; 
+    top: 380px; 
     background: rgba(29, 83, 179, 0.8);
 }
 [color-theme="sombre"] .rectangle{
@@ -144,17 +146,7 @@ a{
     width: 85px;
     height: 85px;
 }
-.proto{
-    background-color: var(--color-secondary);
-    padding: 10px;
-    margin-top: -40px;
-}
-[color-theme="sombre"] .proto{
-    background-color: var(--color-btn);
-}
-.proto:hover{
-    color: var(--color-bg);
-}
+
 /*couleurs*/
 .colors{
     width: 50px;
@@ -190,16 +182,10 @@ a{
     }
     /*images*/
     .mockup{
-        max-width: 150px;
+        max-width: 400px;
+    
     }
-    .mockup--accueil{
-       left: 520px;
-       bottom: 60px;
-    }
-    .mockup--projet{
-        left: 620px;
-        bottom: 60px;
-     }
+
     .logo{
         max-width: 15%;
         margin-left: 15px;
@@ -217,6 +203,7 @@ a{
        max-width: 100%;
     }
     .carre {
+      
         background-size: 25%;
   
     }
@@ -226,6 +213,9 @@ a{
     }
     .site{
         width: 40%;
+    }
+    .maquette{
+        max-width: 100%;
     }
     /*bouton*/
     .bouton{
@@ -267,13 +257,9 @@ a{
         top: 80px; left: 40px;
     }
     .mockup{
-        max-width: 200px;
+        max-width: 150%;
     }
-    .mockup--projet{
-        left: 820px;
-        bottom: -15px;
-     }
-    
+
     .logo{
         max-width: 10%;
       
@@ -289,15 +275,31 @@ a{
         border: none;
     }
     .carre {
+        position: absolute;
+        top: 50px;
+        right: 0;
         background-size: 10%;
         background-position: 100%;
-        height: 450px; width: 600px;
+        height: 600px; width: 600px;
+    
     }
     .rectangle{
         width: 1260px;
-        height: 600px;
+        height: 550px;
         top: 650px;
     }
+    .rectangle--projet{
+        height: 400px;
+    }
+    .rectangle--projet__2{
+        height: 590px;
+        top: 1400px;
+    }
+   
+    .maquette{
+        width: 500px;
+    }
+  
 }
 
 @media (min-width: 1500px){
@@ -309,6 +311,17 @@ a{
     .rectangle{
         left: auto;
 
+    }
+    .rectangle--projet{
+        height: 400px;
+    }
+    .rectangle--projet__2{
+        top: 1350px;
+    }
+   
+    .carre {
+        right: 390px;
+    
     }
     
 }
