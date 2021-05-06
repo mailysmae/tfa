@@ -75,18 +75,18 @@ img{
 .rectangle{
     position: absolute;
     width: 390px;
-    height: 420px;
+    height: 480px;
     left: 0; 
     top: 380px; 
     background: rgba(29, 83, 179, 0.8);
 }
 .rectangle--projet{
-    height: 280px;
+    height: 320px;
     top: 420px;
 }
 .rectangle--projet__2{
-    height: 600px;
-    top: 1040px;
+    height: 630px;
+    top: 1080px;
 }
 [color-theme="sombre"] .rectangle{
     background: var(--color-texte);
@@ -124,7 +124,7 @@ a{
     position: relative;
     background-color: transparent;
     font-family: 'Lexend';
-    left: 220px; top: -25px;
+    left: 130px; top: -20px;
 }
 .bouton--sombre{
     width: 20px;
