@@ -158,7 +158,9 @@
         color: var(--color-text);
         background-color: white;
     }
-    
+    [color-theme="sombre"] .menu__link{
+        color: var(--color-secondary);
+    }
     .menu__link:hover{
         color: var(--color-secondary);
     }

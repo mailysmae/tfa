@@ -43,8 +43,9 @@ img{
 .maquette{
     max-width: 100%;
 }
-
-
+.site{
+    width: 100%;
+}
 .logo{
     max-width: 30%;
     position: relative;
@@ -58,10 +59,6 @@ img{
 .dwm{
     position: relative;
     top: 70px; left: 25px;
-}
-.gif{
-   max-width: 100%;
-   border: none;
 }
 .carre{
 
@@ -83,6 +80,14 @@ img{
     top: 380px; 
     background: rgba(29, 83, 179, 0.8);
 }
+.rectangle--projet{
+    height: 280px;
+    top: 420px;
+}
+.rectangle--projet__2{
+    height: 600px;
+    top: 1040px;
+}
 [color-theme="sombre"] .rectangle{
     background: var(--color-texte);
 }
@@ -93,9 +98,7 @@ p{
 [color-theme="sombre"] .paragraphe{
     color: var(--color-secondary);
 }
-.shadow{
-    filter: drop-shadow(0px 0px 10px #284271);
-}
+
 /*Liens et Boutons*/
 a{
     text-decoration: none;
@@ -103,6 +106,15 @@ a{
 }
 .evidence{
     color: var(--color-secondary);
+}
+.evidence:hover{
+    color: var(--color-texte);
+}
+[color-theme="sombre"] .evidence{
+    color: var(--color-btn);
+}
+[color-theme="sombre"] .evidence:hover{
+    color: var(--color-texte);
 }
 .bouton{
     cursor: pointer;
@@ -112,7 +124,7 @@ a{
     position: relative;
     background-color: transparent;
     font-family: 'Lexend';
-    left: 290px; top: -25px;
+    left: 220px; top: -25px;
 }
 .bouton--sombre{
     width: 20px;
@@ -199,23 +211,27 @@ a{
     .dwm{
         top: 90px; left: 25px;
     }
-    .gif{
-       max-width: 100%;
-    }
     .carre {
       
         background-size: 25%;
   
     }
     .rectangle{
-        width: 900px;
-        height: 420px;    
+        width: 1200px;
+        height: 400px;    
+    }
+    .rectangle--projet{
+        height: 350px;
+    }
+    .rectangle--projet__2{
+        height: 550px;
+        top: 1000px;
     }
     .site{
         width: 40%;
     }
     .maquette{
-        max-width: 100%;
+        width: 100%;
     }
     /*bouton*/
     .bouton{
@@ -269,11 +285,6 @@ a{
         height: 200px;
         left: 150px; top: 200px;
     }
-    .gif{
-        width: 500px;
-        height: 500px;
-        border: none;
-    }
     .carre {
         position: absolute;
         top: 50px;
@@ -316,7 +327,8 @@ a{
         height: 400px;
     }
     .rectangle--projet__2{
-        top: 1350px;
+        top: 1450px;
+        height: 720px;
     }
    
     .carre {
