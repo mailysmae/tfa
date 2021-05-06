@@ -223,7 +223,7 @@
         grid-column-start: 1;
         grid-column-end: 3;  
         grid-row-start: 1;
-        margin-top: 20px;
+        margin-top: 150px;
         left: 15px;
   
     }
@@ -309,8 +309,6 @@
         grid-row-start: 1;
         margin-top: 300px;
         padding: 15px;
-
-
     }
     .dgrid-start17{
         grid-column-start: 1;
@@ -399,8 +397,28 @@
     .dgrid-start31{
         grid-column-start: 2;
         grid-column-end: 4;  
-        margin-top: -30px; 
+        margin-top: 150px; 
      
+    }
+    .dgrid-start32{
+        grid-column-start: 2;
+        grid-column-end: 2;  
+        grid-row-start: 1;
+
+    }
+    .dgrid-start33{
+        grid-column-start: 4;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        padding: 10px;
+        margin-top: 150px;
+    }
+    .dgrid-start34{
+        grid-column-start: 4;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        padding: 10px;
+        margin-top: 200px;
     }
 }
 

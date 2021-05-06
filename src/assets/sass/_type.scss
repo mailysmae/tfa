@@ -30,13 +30,15 @@ body{
     top: 68px; left: 25px;
 }
 .proto{
+    position: absolute;
     background-color: var(--color-secondary);
-    margin-top: -40px;
+    top: 250px;
     margin-left: 50px;
     text-align: center;
-    padding: 10px;
+ 
     color: var(--color-bg);
     cursor: pointer;
+    padding: 10px;
 }
 .proto--projet{
      margin-top: 200px;
@@ -67,7 +69,7 @@ body{
     } 
     .proto{
         margin-right: 150px;      
-        margin-top: 220px;
+        top: 350px;
         cursor: pointer;
      }
 }
@@ -81,11 +83,13 @@ body{
         top: 90px; left: 30px;
         
     }
-    .proto{
-       margin-right: 150px;      
+    .proto{    
+        top: 500px;
+        left: 120px;
        font-size: 18px;
        margin: 50px;
        cursor: pointer;
+       
     }
     .prototype--projet{
         bottom: 260px; left: -80px;
