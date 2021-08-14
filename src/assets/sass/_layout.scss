@@ -287,7 +287,7 @@ a{
         top: 80px; left: 40px;
     }
     .mockup{
-        max-width: 150%;
+        max-width: 80%;
     }
 
     .logo{
@@ -334,10 +334,20 @@ a{
         max-width: 1500px;
         margin: auto;
     }
-    .rectangle{
-        left: auto;
-
+    .section--footer,
+    .section--header{
+        width: 1500px;
+      
     }
+    .mockup{
+        max-width: 60%;
+    }
+    .rectangle{
+        right: 0;
+        width: 1900px;
+        height: 750px;
+    }
+    
     .rectangle--projet{
         height: 400px;
     }
@@ -349,6 +359,10 @@ a{
     .carre {
         right: 390px;
     
+    }
+    .cross{
+        margin-top: -190px;
+        margin-left: 500px;
     }
    .bouton{
        position: absolute;
