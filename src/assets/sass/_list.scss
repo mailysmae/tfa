@@ -241,5 +241,21 @@
      .menu__link{
         font-size: 18px;
     }
+@media (min-width: 1500px){
+        .menu__item{
+            top: -60px;
+        }
+        .menu__liste--site,
+        .menu__liste--images,
+        .menu__liste--reseaux{
+          display: inline;
+          
+        }
+        .menu__liste--etats{
+            display: inline;
+            top: 10px;
+            
+        }
+    }
 }
 

@@ -24,6 +24,9 @@ body{
 .title--sous{
     position: relative;
 }
+[color-theme="sombre"] .title--sous{
+    color: var(--color-secondary);
+}
 .copyright{
     font-size: 12px;
     position: relative;
@@ -84,8 +87,8 @@ body{
         
     }
     .proto{    
-        top: 150px;
-        left: 240px;
+        top: 390px;
+        left: 38px;
         font-size: 18px;
         margin: 50px;
         cursor: pointer;
@@ -93,6 +96,11 @@ body{
     }
     .prototype--projet{
         bottom: 260px; left: -80px;
+    }
+    @media (min-width: 1500px){
+        .proto{
+            top: 420px;
+        }
     }
  
 }

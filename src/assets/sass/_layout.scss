@@ -71,8 +71,6 @@ img{
 
 }
 .cross{
-    margin-left: 450px;
-    margin-top: -300px;
     width: 578px;
     height: 557px;
     background: #4A75C2;
@@ -266,7 +264,6 @@ a{
     .section--header{
         padding: 10px;
         width: 1260px;
-        height: 90px;
     }
     .section--footer{
         width: 1260px;
@@ -274,7 +271,7 @@ a{
     }
     /*bouton*/
     .bouton{
-        left: 1180px;
+        left: 1150px;
     }
   
     /*texte*/
@@ -287,11 +284,12 @@ a{
         top: 80px; left: 40px;
     }
     .mockup{
-        max-width: 80%;
+        max-width: 140%;
     }
 
     .logo{
-        max-width: 10%;
+        max-width: 11%;
+        margin-left: 27px;
       
     }
     .logoimg{
@@ -301,12 +299,15 @@ a{
     }
     .carre {
         position: absolute;
-        top: 50px;
-        right: 0;
+        top: 80px;
+        right: 40px;
         background-size: 10%;
         background-position: 100%;
         height: 600px; width: 600px;
-    
+    }
+    .cross{
+        margin-top: -170px;
+        margin-left: 450px;
     }
     .rectangle{
         width: 1260px;
@@ -336,37 +337,66 @@ a{
     }
     .section--footer,
     .section--header{
-        width: 1500px;
+        width: 1400px;
       
     }
+    .section--credits,
+    .section--images,
+    .section--reseaux{
+        margin-left: 100px;
+        padding: 20px;
+      
+    }
+    .section--corps{
+        margin-left: 40px;
+        margin-top: -80px;
+    }
+    .section--etats{
+        margin-left: 70px;
+        margin-top: -10px;
+    }
+    .section--couleurs{
+        margin-left: 70px;
+        margin-top: -5px;
+    }
     .mockup{
-        max-width: 60%;
+        max-width: 100%;
+    }
+    .mockup--2{
+        max-width: 50%;
+        position: relative;
     }
     .rectangle{
-        right: 0;
+        top: 800px ;
         width: 1900px;
-        height: 750px;
+        height: 520px;
     }
     
     .rectangle--projet{
         height: 400px;
     }
     .rectangle--projet__2{
-        top: 1450px;
-        height: 720px;
+        top: 1720px;
+        height: 550px;
     }
-   
+    .rectangle--projet__3{
+        top: 2785px;
+    }
     .carre {
         right: 390px;
-    
+        top: 120px
     }
     .cross{
-        margin-top: -190px;
+        margin-top: -90px;
+        margin-left: 500px;
+    }
+    .cross--2{
+        margin-top: -130px;
         margin-left: 500px;
     }
    .bouton{
        position: absolute;
-       top: 20px;
+       top: 13px;
        left: 1500px;
    }
     
