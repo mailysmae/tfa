@@ -23,6 +23,7 @@ body{
 }
 .title--sous{
     position: relative;
+    margin-top: 20px;
 }
 [color-theme="sombre"] .title--sous{
     color: var(--color-secondary);
@@ -44,8 +45,8 @@ body{
     padding: 10px;
 }
 .proto--projet{
-     margin-top: 200px;
-     margin-left: -150px;
+     margin-top: 180px;
+     margin-left: 150px;
 }
 
 [color-theme="sombre"] .proto{

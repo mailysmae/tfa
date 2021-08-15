@@ -33,7 +33,18 @@
 .menu__liste a:focus{ 
     color: var(--color-texte);
 }
-
+.menu__liste--etats{
+    display: inline;
+    top: 10px;
+    left: 10px; 
+}
+.menu__liste--site,
+.menu__liste--images,
+.menu__liste--reseaux{
+  display: inline;
+  padding: 10px;
+  margin-left: 40px;
+}
 .reseau{
     list-style: none;
     display: flex; 

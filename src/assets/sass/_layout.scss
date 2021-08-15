@@ -31,13 +31,26 @@
     padding: 80px;
     margin-top: 5px;
 }
+.section--corps{
+    margin-left: 10px;
+    margin-top: -80px;
+}
+.section--etats{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.section--couleurs{
+    margin-left: 30px;
+    margin-top: 5px;
+}
 /*images*/
 img{
     max-width: 100%;
 }
 .mockup{
     position: relative;
-    max-width: 250px;
+    max-width: 100%;
+  margin-top: -120px;
 
 }
 .maquette{
@@ -60,22 +73,7 @@ img{
     position: relative;
     top: 70px; left: 25px;
 }
-.carre{
 
-    background-image: url(../images/pa.png);
-    background-repeat: repeat;
-    background-size: 30%;
-    background-position: 100%;
-    clip-path: polygon(9% 25%, 35% 25%, 35% 0%, 59% 0, 59% 25%, 85% 25%, 85% 47%, 59% 47%, 59% 72%, 35% 72%, 35% 47%, 9% 47%);
-    margin-top: 40px
-
-}
-.cross{
-    width: 578px;
-    height: 557px;
-    background: #4A75C2;
-    clip-path: polygon(9% 25%, 35% 25%, 35% 0%, 59% 0, 59% 25%, 85% 25%, 85% 47%, 59% 47%, 59% 72%, 35% 72%, 35% 47%, 9% 47%);
-}
 [color-theme="sombre"] .carre{
     background-image: url(../images/patblack.png);
 
@@ -87,24 +85,31 @@ img{
 .rectangle{
     position: absolute;
     width: 390px;
-    height: 480px;
+    height: 550px;
     left: 0; 
     top: 380px; 
     background: rgba(29, 83, 179, 0.8);
 }
 .rectangle--projet{
     height: 320px;
-    top: 350px;
+    top: 315px;
 }
 .rectangle--projet__2{
     height: 630px;
-    top: 1000px;
+    top: 2150px;
+}
+.rectangle--projet__3{
+    height: 630px;
+    top: 1100px;
 }
 [color-theme="sombre"] .rectangle{
     background: var(--color-texte);
 }
 
 p{
+    position: relative;
+}
+.paragraphe{
     position: relative;
 }
 [color-theme="sombre"] .paragraphe{
@@ -136,7 +141,7 @@ a{
     position: relative;
     background-color: transparent;
     font-family: 'Lexend';
-    left: 130px; top: -20px;
+    left: 220px; top: -23px;
 }
 .bouton--sombre{
     width: 20px;
@@ -167,8 +172,8 @@ a{
 }
 
 .darkMode{
-    width: 85px;
-    height: 85px;
+    max-width: 10%;
+    margin-left: 10px;
 }
 
 /*couleurs*/
@@ -187,7 +192,15 @@ a{
 .colors--3{
     background-color: var(--color-texte);
 }
+@media (max-width: 800px){
 
+    .carre{
+        display: none;
+    }
+    .cross{
+        display: none;
+    }
+}
 /*tablette*/
 @media (min-width: 900px){
     .contenair{
@@ -206,12 +219,12 @@ a{
     }
     /*images*/
     .mockup{
-        max-width: 400px;
+        max-width: 120%;
     
     }
 
     .logo{
-        max-width: 15%;
+        max-width: 10%;
         margin-left: 15px;
         margin-top: 5px;
     }
@@ -223,10 +236,26 @@ a{
     .dwm{
         top: 90px; left: 25px;
     }
-    .carre {
-      
-        background-size: 25%;
-  
+    .carre{
+        position: absolute;
+        width: 278px;
+        height: 307px;
+        background-image: url(../images/pa.png);
+        background-repeat: repeat;
+        background-size: 15%;
+        background-position: 100%;
+        clip-path: polygon(9% 25%, 35% 25%, 35% 0%, 59% 0, 59% 25%, 85% 25%, 85% 47%, 59% 47%, 59% 72%, 35% 72%, 35% 47%, 9% 47%);
+        margin-left: 500px;
+
+    }
+    .cross{
+        position: absolute;
+        width: 278px;
+        height: 307px;
+        margin-top: 24px;
+        margin-left: 550px;
+        background: #4A75C2;
+        clip-path: polygon(9% 25%, 35% 25%, 35% 0%, 59% 0, 59% 25%, 85% 25%, 85% 47%, 59% 47%, 59% 72%, 35% 72%, 35% 47%, 9% 47%);
     }
     .rectangle{
         width: 1200px;
@@ -247,12 +276,12 @@ a{
     }
     /*bouton*/
     .bouton{
-        top: -80px; left: 940px;
+        top: -75px; left: 840px;
     }
     
     .bouton--sombre{
-        width: 30px;
-        height: 30px;
+        width: 20px;
+        height: 20px;
     }
 }
 
