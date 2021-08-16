@@ -31,6 +31,12 @@
     padding: 80px;
     margin-top: 5px;
 }
+.section--credits,
+.section--images,
+.section--reseaux{
+    margin-left: 10px;
+    padding: 20px;  
+}
 .section--corps{
     margin-left: 10px;
     margin-top: -80px;
@@ -50,7 +56,7 @@ img{
 .mockup{
     position: relative;
     max-width: 100%;
-  margin-top: -120px;
+    margin-top: -120px;
 
 }
 .maquette{
@@ -85,7 +91,7 @@ img{
 .rectangle{
     position: absolute;
     width: 390px;
-    height: 550px;
+    height: 820px;
     left: 0; 
     top: 380px; 
     background: rgba(29, 83, 179, 0.8);
@@ -95,12 +101,12 @@ img{
     top: 315px;
 }
 .rectangle--projet__2{
-    height: 630px;
-    top: 2150px;
+    height: 700px;
+    margin-top: 1090px;
 }
 .rectangle--projet__3{
-    height: 630px;
-    top: 1100px;
+    height: 720px;
+    top: 3050px;
 }
 [color-theme="sombre"] .rectangle{
     background: var(--color-texte);
@@ -108,6 +114,7 @@ img{
 
 p{
     position: relative;
+    margin-top: 30px;
 }
 .paragraphe{
     position: relative;
@@ -209,22 +216,36 @@ a{
         margin: auto;
     }
     .section--header{
-        width: 1022px;
+        width: 900px;
         height: 60px;
+        padding: 10px;
     }
     
     .section--footer{
-        width: 1022px;
+        width: 900px;
         font-size: 18px; 
+    }
+    .section--corps{
+        margin-left: -80px;
+        margin-top: -80px;
+    }
+    .section--etats{
+        margin-left: -40px;
+        margin-top: -10px;
+    }
+    .section--couleurs{
+        margin-left: -40px;
+        margin-top: -5px;
     }
     /*images*/
     .mockup{
-        max-width: 120%;
-    
+        max-width: 110%;
     }
-
+    .mockup--2{
+        max-width: 210%;
+    }
     .logo{
-        max-width: 10%;
+        max-width: 15%;
         margin-left: 15px;
         margin-top: 5px;
     }
@@ -258,15 +279,20 @@ a{
         clip-path: polygon(9% 25%, 35% 25%, 35% 0%, 59% 0, 59% 25%, 85% 25%, 85% 47%, 59% 47%, 59% 72%, 35% 72%, 35% 47%, 9% 47%);
     }
     .rectangle{
-        width: 1200px;
-        height: 400px;    
+        width: 900px;
+        height: 420px;   
     }
     .rectangle--projet{
         height: 300px;
+        margin-top: 50px; 
     }
     .rectangle--projet__2{
-        height: 500px;
-        top: 1000px;
+        height: 450px;
+        top: -20px;
+    }
+    .rectangle--projet__3{
+        height: 400px;
+        top: 1920px;
     }
     .site{
         width: 40%;

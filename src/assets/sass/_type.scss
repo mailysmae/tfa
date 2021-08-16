@@ -25,8 +25,11 @@ body{
     position: relative;
     margin-top: 20px;
 }
-[color-theme="sombre"] .title--sous{
+[color-theme="sombre"] .tsdark{
     color: var(--color-secondary);
+}
+[color-theme="sombre"] .tdark{
+    color: var(--color-text);
 }
 .copyright{
     font-size: 12px;
