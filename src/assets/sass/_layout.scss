@@ -339,9 +339,11 @@ a{
         top: 80px; left: 40px;
     }
     .mockup{
-        max-width: 140%;
+        max-width: 120%;
     }
-
+    .mockup--2{
+        max-width: 60%;
+    }
     .logo{
         max-width: 11%;
         margin-left: 27px;
@@ -361,8 +363,9 @@ a{
         height: 600px; width: 600px;
     }
     .cross{
-        margin-top: -170px;
-        margin-left: 450px;
+        margin-top: 10px;
+        margin-left: 650px;
+        height: 600px; width: 600px;
     }
     .rectangle{
         width: 1260px;
@@ -374,13 +377,15 @@ a{
     }
     .rectangle--projet__2{
         height: 590px;
-        top: 1420px;
+        top: 580px;
+    }
+    .rectangle--projet__3{
+        top: 2770px;
     }
    
     .maquette{
         width: 500px;
     }
-
   
 }
 
@@ -422,32 +427,29 @@ a{
         position: relative;
     }
     .rectangle{
-        top: 800px ;
+        top: 630px ;
         width: 1900px;
         height: 520px;
     }
     
     .rectangle--projet{
         height: 400px;
+        top: 580px;
     }
     .rectangle--projet__2{
-        top: 1720px;
+        top: 480px;
         height: 550px;
     }
     .rectangle--projet__3{
-        top: 2785px;
+        top: 2650px;
     }
     .carre {
         right: 390px;
         top: 120px
     }
     .cross{
-        margin-top: -90px;
-        margin-left: 500px;
-    }
-    .cross--2{
-        margin-top: -130px;
-        margin-left: 500px;
+        top: 150px;
+        left: 330px;
     }
    .bouton{
        position: absolute;

@@ -224,7 +224,7 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 2fr 1fr;
         column-gap: 30px;
-        row-gap: 30px;
+        row-gap: 60px;
         padding: 20px;
         
     }
@@ -247,7 +247,7 @@
         grid-column-start: 2;
         grid-column-end: 4;
         grid-row-start: 2;
-        margin-top: 170px;
+        margin-top: 150px;
     }
     .dgrid-start5{
         grid-column-start: 4;
@@ -259,12 +259,12 @@
     .dgrid-start6{
         grid-column-start: 2;
         grid-column-end: 3;
-        margin-top: -15px;
+        margin-top: 280px
     }
     .dgrid-start7{
         grid-column-start: 2;
         grid-column-end: 4;   
-        margin-top: 60px;
+        margin-top: 420px;
     }
     .dgrid-start8{
         grid-column-start: 2;
@@ -416,14 +416,14 @@
     .dgrid-start32{
         grid-column-start: 4;
         grid-column-end: 5;  
-        margin-top: 110px;
         padding: 15px;
+        margin-top: 350px;
     }
     .dgrid-start33{
         grid-column-start: 4;
         grid-column-end: 5;
-        margin-top: 180px;
         padding: 15px;
+        margin-top: 450px;
     }
     .dgrid-start34{
         grid-column-start: 4;
