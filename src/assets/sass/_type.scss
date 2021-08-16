@@ -51,7 +51,10 @@ body{
      margin-top: 180px;
      margin-left: 150px;
 }
-
+.proto--case{
+    top: 150px;
+    left: 180px;
+}
 [color-theme="sombre"] .proto{
     background-color: var(--color-btn);
 }
@@ -76,7 +79,7 @@ body{
     } 
     .proto{
         margin-right: 150px;      
-        top: 350px;
+        top: 400px;
         cursor: pointer;
      }
 }
@@ -101,10 +104,18 @@ body{
     .prototype--projet{
         bottom: 260px; left: -80px;
     }
+    .proto--case{
+        top: 450px;
+        left: 240px;
+    }
 @media (min-width: 1500px){
         .proto{
             top: 420px;
             left: 230px;
+        }
+        .proto--case{
+            top: 450px;
+            left: 480px;
         }
     }
  

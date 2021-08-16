@@ -51,7 +51,9 @@
 }
 /*images*/
 img{
-    max-width: 100%;
+    max-width: 200%;
+    margin: -40px;
+    position: relative;
 }
 .mockup{
     position: relative;
@@ -60,7 +62,18 @@ img{
 
 }
 .maquette{
-    max-width: 100%;
+    max-width: 300%;
+    margin-left: -135px;
+}
+.mvp{
+    display: inline;
+    padding: 50px;
+    max-width: 95%;
+}
+.landing{
+    display: inline;
+    padding: 50px;
+    margin-left: -100px;
 }
 .site{
     width: 100%;
@@ -77,7 +90,7 @@ img{
 }
 .dwm{
     position: relative;
-    top: 70px; left: 25px;
+    top: 30px; left: 25px;
 }
 
 [color-theme="sombre"] .carre{
@@ -108,6 +121,22 @@ img{
     height: 720px;
     top: 3050px;
 }
+.rectangle--case{
+    height: 540px;
+    top: 310px;
+}
+.rectangle--case__2{
+    height: 1450px;
+    top: 1730px;
+}
+.rectangle--case__3{
+    height: 755px;
+    top: 5165px;
+}
+.rectangle--case__4{
+    height: 1420px;
+    top: 7245px;
+}
 [color-theme="sombre"] .rectangle{
     background: var(--color-texte);
 }
@@ -122,7 +151,11 @@ p{
 [color-theme="sombre"] .paragraphe{
     color: var(--color-secondary);
 }
-
+.sous{
+    position: relative;
+    font-size: 10px;
+    top: 30px
+}
 /*Liens et Boutons*/
 a{
     text-decoration: none;
@@ -217,8 +250,7 @@ a{
     }
     .section--header{
         width: 900px;
-        height: 60px;
-        padding: 10px;
+        padding: 40px;
     }
     
     .section--footer{
@@ -238,6 +270,17 @@ a{
         margin-top: -5px;
     }
     /*images*/
+    .begin{
+        max-width: 80%;
+        margin-left: 100px;
+    }
+    .mvp{
+        max-width: 30%;
+        padding: 40px;
+    }
+    .landing{
+        max-width: 80%;
+    }
     .mockup{
         max-width: 110%;
     }
@@ -246,8 +289,8 @@ a{
     }
     .logo{
         max-width: 15%;
-        margin-left: 15px;
-        margin-top: 5px;
+        top: -40px;
+        left: 20px;
     }
     .logoimg{
         width: 500px;
@@ -255,7 +298,7 @@ a{
         left: 80px; top: 100px;
     }
     .dwm{
-        top: 90px; left: 25px;
+        top: 50px; left: 35px;
     }
     .carre{
         position: absolute;
@@ -281,18 +324,35 @@ a{
     .rectangle{
         width: 900px;
         height: 420px;   
+        margin-top: 40px;
     }
     .rectangle--projet{
         height: 300px;
-        margin-top: 50px; 
+        margin-top: 100px; 
     }
     .rectangle--projet__2{
         height: 450px;
-        top: -20px;
+        top: 1080px;
     }
     .rectangle--projet__3{
         height: 400px;
         top: 1920px;
+    }
+    .rectangle--case{
+        height: 420px;
+        top: 360px;
+    }
+    .rectangle--case__2{
+        height: 1450px;
+        top: 1760px;
+    }
+    .rectangle--case__3{
+        height: 780px;
+        top: 4650px;
+    }
+    .rectangle--case__4{
+        height: 1405px;
+        top: 7200px;
     }
     .site{
         width: 40%;
@@ -308,6 +368,7 @@ a{
     .bouton--sombre{
         width: 20px;
         height: 20px;
+        left: 790px;
     }
 }
 
@@ -317,7 +378,7 @@ a{
         max-width: 1500px;
     }
     .section--header{
-        padding: 10px;
+        padding: 40px;
         width: 1260px;
     }
     .section--footer{
@@ -335,8 +396,23 @@ a{
         top: 80px; left: 40px;
     }
     /*images*/
+    .begin{
+        max-width: 70%;
+        margin-left: 200px;
+    }
+    .mvp{
+        max-width: 25%;
+        padding: 60px;
+    }
+    .landing{
+        max-width: 80%;
+    }
     .dwm {
-        top: 80px; left: 40px;
+        top: 40px; left: 40px;
+    }
+    .maquette{
+        max-width: 100%;
+        margin-left: -40px;
     }
     .mockup{
         max-width: 120%;
@@ -346,7 +422,7 @@ a{
     }
     .logo{
         max-width: 11%;
-        margin-left: 27px;
+        margin-left: 15px;
       
     }
     .logoimg{
@@ -377,16 +453,27 @@ a{
     }
     .rectangle--projet__2{
         height: 590px;
-        top: 580px;
+        top: 1660px;
     }
     .rectangle--projet__3{
         top: 2770px;
     }
-   
-    .maquette{
-        width: 500px;
+    .rectangle--case{
+        height: 480px;
+        top: 580px;
     }
-  
+    .rectangle--case__2{
+        height: 1550px;
+        top: 2260px;
+    }
+    .rectangle--case__3{
+        height: 850px;
+        top: 5470px;
+    }
+    .rectangle--case__4{
+        height: 1590px;
+        top: 8020px;
+    }
 }
 
 @media (min-width: 1500px){
@@ -395,9 +482,13 @@ a{
         max-width: 1500px;
         margin: auto;
     }
-    .section--footer,
+    .section--footer{
+        width: 1400px;
+      
+    }
     .section--header{
         width: 1400px;
+        padding: 60px;
       
     }
     .section--credits,
@@ -421,6 +512,7 @@ a{
     }
     .mockup{
         max-width: 100%;
+        top: -30px;
     }
     .mockup--2{
         max-width: 50%;
@@ -433,15 +525,32 @@ a{
     }
     
     .rectangle--projet{
-        height: 400px;
-        top: 580px;
+        height: 380px;
+        top: 620px;
     }
     .rectangle--projet__2{
-        top: 480px;
+        top: 1580px;
         height: 550px;
     }
     .rectangle--projet__3{
         top: 2650px;
+        height: 568px;
+    }
+    .rectangle--case{
+        height: 460px;
+        top: 580px;
+    }
+    .rectangle--case__2{
+        height: 1580px;
+        top: 2110px;
+    }
+    .rectangle--case__3{
+        height: 750px;
+        top: 5190px;
+    }
+    .rectangle--case__4{
+        height: 1570px;
+        top: 8020px;
     }
     .carre {
         right: 390px;
@@ -456,5 +565,5 @@ a{
        top: 13px;
        left: 1500px;
    }
-    
+
 }
