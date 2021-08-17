@@ -34,7 +34,7 @@ body{
 .copyright{
     font-size: 12px;
     position: relative;
-    top: 68px; left: 25px;
+    top: 68px; left: 45px;
 }
 .proto{
     position: absolute;
@@ -52,8 +52,8 @@ body{
      margin-left: 150px;
 }
 .proto--case{
-    top: 150px;
-    left: 180px;
+    top: 190px;
+    left: -5px;
 }
 [color-theme="sombre"] .proto{
     background-color: var(--color-btn);

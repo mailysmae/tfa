@@ -13,7 +13,7 @@
 }
 
 .section--footer{
-    width: 390px;
+    width: 350px;
     font-size: 16px; 
     border-top: 3px solid;
     border-color: var(--color-secondary);
@@ -34,7 +34,7 @@
 .section--credits,
 .section--images,
 .section--reseaux{
-    margin-left: 10px;
+    margin-left: 35px;
     padding: 20px;  
 }
 .section--corps{
@@ -47,13 +47,19 @@
 }
 .section--couleurs{
     margin-left: 30px;
-    margin-top: 5px;
+    margin-top: 60px;
 }
 /*images*/
 img{
     max-width: 200%;
     margin: -40px;
     position: relative;
+}
+.begin{
+    max-width: 300%;
+    margin-left: -90px;
+    margin-top: -5px;
+    padding: 5px;
 }
 .mockup{
     position: relative;
@@ -62,18 +68,26 @@ img{
 
 }
 .maquette{
-    max-width: 300%;
-    margin-left: -135px;
+    max-width: 400%;
+    margin-left: -155px;
+    padding: 15px;
 }
 .mvp{
     display: inline;
     padding: 50px;
-    max-width: 95%;
+    max-width: 190%;
+    margin-left: -90px;
+}
+.mood{
+    max-width: 350%;
+    margin-left: -125px;
+    padding: 10px;
 }
 .landing{
     display: inline;
     padding: 50px;
-    margin-left: -100px;
+    margin-left: -150px;
+    max-width: 300%;
 }
 .site{
     width: 100%;
@@ -82,15 +96,16 @@ img{
     max-width: 30%;
     position: relative;
     padding: 5px;
+    margin-left: 10px;
 }
 .logoui{
     width: 200px;
     height: 70px; 
-    margin-left: 40px; margin-top: 150px;
+    margin-left: 40px; margin-top: 120px;
 }
 .dwm{
     position: relative;
-    top: 30px; left: 25px;
+    top: 30px; left: 45px;
 }
 
 [color-theme="sombre"] .carre{
@@ -122,25 +137,29 @@ img{
     top: 3050px;
 }
 .rectangle--case{
-    height: 540px;
+    height: 660px;
     top: 310px;
 }
 .rectangle--case__2{
-    height: 1450px;
-    top: 1730px;
+    height: 1910px;
+    top: 2090px;
 }
 .rectangle--case__3{
-    height: 755px;
-    top: 5165px;
+    height: 900px;
+    top: 6500px;
 }
 .rectangle--case__4{
-    height: 1420px;
-    top: 7245px;
+    height: 1720px;
+    top: 8905px;
 }
 [color-theme="sombre"] .rectangle{
     background: var(--color-texte);
 }
-
+/*texte*/
+.titre{
+    padding: 20px;
+    margin-left: 30px;
+}
 p{
     position: relative;
     margin-top: 30px;
@@ -181,7 +200,7 @@ a{
     position: relative;
     background-color: transparent;
     font-family: 'Lexend';
-    left: 220px; top: -23px;
+    left: 150px; top: 15px;
 }
 .bouton--sombre{
     width: 20px;
@@ -213,7 +232,7 @@ a{
 
 .darkMode{
     max-width: 10%;
-    margin-left: 10px;
+    margin-left: 40px;
 }
 
 /*couleurs*/
