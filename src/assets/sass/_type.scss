@@ -39,7 +39,7 @@ body{
 .proto{
     position: absolute;
     background-color: var(--color-secondary);
-    top: 250px;
+    top: 300px;
     margin-left: 50px;
     text-align: center;
  
@@ -48,8 +48,8 @@ body{
     padding: 10px;
 }
 .proto--projet{
-     margin-top: 180px;
-     margin-left: 150px;
+     margin-top: -30px;
+     margin-left: 50px;
 }
 .proto--case{
     top: 190px;
@@ -69,7 +69,7 @@ body{
     }
     .copyright{
         font-size: 18px;
-        top: 90px; left: 30px;
+        top: 90px; left: 70px;
         
     }
 
@@ -79,9 +79,17 @@ body{
     } 
     .proto{
         margin-left: -5px;      
-        top: 150px;
+        top: 320px;
         cursor: pointer;
      }
+     .proto--projet{
+        margin-left: -5px;
+        top: 320px;
+   }
+   .proto--case{
+    top: 290px;
+    left: 230px;
+    }
 }
 @media (min-width: 1200px){
     body{
