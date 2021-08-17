@@ -397,17 +397,32 @@ a{
     }
     .section--header{
         padding: 40px;
-        width: 1260px;
+        width: 1380px;
     }
     .section--footer{
-        width: 1260px;
+        width: 1380px;
         font-size: 18px; 
+    }
+    .section--corps{
+        margin-left: -150px;
+        margin-top: -100px;
+    }
+    .section--etats{
+        margin-left: -120px;
+        margin-top: -50px;
+    }
+    .section--couleurs{
+        margin-left: -115px;
+        margin-top: -50px;
     }
     /*bouton*/
     .bouton{
-        left: 1150px;
+        left: 1250px;
     }
-  
+    .bouton--sombre{
+        width: 30px;
+        height: 30px;
+    }
     /*texte*/
     .copyright{
         font-size: 20px;
@@ -423,14 +438,18 @@ a{
         padding: 60px;
     }
     .landing{
-        max-width: 80%;
+        width: 65%;
+        margin-left: 300px;
+    }
+    .sous--2{
+        left: 350px;
     }
     .dwm {
         top: 40px; left: 40px;
     }
     .maquette{
-        max-width: 100%;
-        margin-left: -40px;
+        width: 1100px;
+        margin-left: -200px;
     }
     .mockup{
         max-width: 120%;
@@ -441,56 +460,62 @@ a{
     .logo{
         max-width: 11%;
         margin-left: 15px;
-      
+       margin-top: 10px;
     }
     .logoimg{
         width: 500px;
         height: 200px;
         left: 150px; top: 200px;
     }
+    .fin{
+        width:500px;
+        left: -50px;
+        padding: 10px;
+    }
     .carre {
         position: absolute;
-        top: 80px;
-        right: 40px;
+        top: 100px;
+        right: 120px;
         background-size: 10%;
         background-position: 100%;
         height: 600px; width: 600px;
     }
     .cross{
-        margin-top: 10px;
-        margin-left: 650px;
+        margin-top: -10px;
+        margin-left: 730px;
         height: 600px; width: 600px;
     }
     .rectangle{
-        width: 1260px;
+        width: 1390px;
         height: 550px;
         top: 650px;
     }
     .rectangle--projet{
-        height: 400px;
+        height: 350px;
     }
     .rectangle--projet__2{
         height: 590px;
-        top: 1660px;
+        top: 1700px;
     }
     .rectangle--projet__3{
-        top: 2770px;
+        top: 2910px;
+        height: 600px;
     }
     .rectangle--case{
         height: 480px;
         top: 580px;
     }
     .rectangle--case__2{
-        height: 1550px;
-        top: 2260px;
+        height: 1750px;
+        top: 2290px;
     }
     .rectangle--case__3{
-        height: 850px;
-        top: 5470px;
+        height: 950px;
+        top: 5700px;
     }
     .rectangle--case__4{
-        height: 1590px;
-        top: 8020px;
+        height: 1510px;
+        top: 8750px;
     }
 }
 
